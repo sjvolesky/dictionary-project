@@ -10,7 +10,15 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Samantha Muckridge open-sourced on GitHub</small>
+          <small>
+            Samantha Muckridge open-sourced on{" "}
+            <a
+              href="https://github.com/sjvolesky/dictionary-project.git"
+              target="_blank"
+            >
+              GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>
